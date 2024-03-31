@@ -1,0 +1,74 @@
+.benefitContainer {
+    height: 120vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefitTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefitsTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #52EB9E;
+}
+
+.benefitsSubTitle {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.benefitsDescription {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.benefitsCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.benefitCardRow {
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+}
+
+.benefitCard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 220px;
+    margin: auto;
+    justify-content: center;
+}
+
+.CardSpecial {
+    background-color: rgba(82, 235, 158, 0.04);
+}
+
+.CardSpecial2{
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}

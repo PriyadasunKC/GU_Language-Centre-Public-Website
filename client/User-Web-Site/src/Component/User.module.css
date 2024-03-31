@@ -1,0 +1,400 @@
+/*------------------Navbar - Start------------------*/
+.Home {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/homepage.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.NavContainer {
+    width: 80% ;    
+    margin: auto;
+}
+
+.NavBar {
+    width: 80%;
+    padding-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+.Nav {
+  margin: 0 auto;
+}
+
+.NavBrand {
+    color: #10C843;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.NavBrand:hover {
+    color: #52EB9E;
+}
+
+.NavLinks {
+    font-size: 1.1em;
+    color: rgba(0,0,0,0.6)  !important;
+    margin-right: 1em;
+    transition: border-bottom 0.3s;
+    text-decoration: none;
+    border-bottom: 2.5px solid transparent;
+}
+
+.NavLinks:hover {
+    color: #52EB9E !important;
+    border-bottom: 2.5px solid #52EB9E;
+    text-decoration: none;
+}
+
+.ContactUsButton {
+    width: 160px;
+    border-radius: 50px;
+    padding: 13px 25px 13px 10px;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #10C843;
+    border: none;
+}
+
+.ContactUsButton:hover {
+    background-color: #52EB9E;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.ContactUsButton::after {
+  content: '➔'; 
+  position: absolute;
+  right: 25px; 
+  transition: all 0.3s;
+}
+
+.ContactUsButton:hover::after {
+  right: 20px; 
+    transition: all 0.3s;
+}
+
+.Brand {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
+
+.HomeContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.HomeTextContainer {
+    flex: 1.3;
+}
+
+.HomeImageContainer{
+    flex: 0.9;
+}
+
+.MobileNavBar {
+    display: none;
+}
+
+.contactUsButton , .coursesButton{
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow {
+    transition: all 0.3s ease;
+}
+
+.coursesButton .arrow {
+    margin-left: 10px !important;
+}
+
+.contactUsButton .arrow {
+    margin-left: 10px !important;
+}
+
+.contactUsButton:hover .arrow, .coursesButton:hover .arrow {
+    transform: translateX(3px);
+}
+
+.HomeContainer {
+    width: 80%;
+    margin: auto;
+    padding-top: 10vh;
+}
+
+.HomeImage {
+    width: 90%;
+    height: 100%;
+}
+
+.HomeTextContainer {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.homeTitle {
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 1.3;
+}
+
+.homeDescription {
+    font-size: 1.2em;
+    color: rgba(0,0,0,0.6);
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 1.2;
+}
+
+.HomeSpecial {
+    color: #52EB9E;
+}
+
+.HomeSpecial:hover {
+    color: #43E393;
+    cursor: pointer;
+}
+
+.homeButtonGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.homeButtonGroup button {
+    width: 175px;
+    border-radius: 50px;
+    padding: 13px 25px;
+    display: flex;
+    align-items: center;
+    background-color: #10C843;
+    border: none;
+    font-size: 1.1em;
+}
+
+.coursesButton {
+    color: white;
+}
+
+.contactUsButton {
+    color : #52EB9E;
+    background-color: white !important;
+    border: 2px solid #52EB9E !important;
+}
+
+.HomeContainer {
+    margin-bottom: 15vh !important;
+}
+
+.Statics {
+    margin-bottom: 15vh !important;
+}
+
+.aboutUsContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    background-image: url('/public/aboutBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.FeaturesContainer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: auto;
+    width: 100%;
+    height: 100vh; /* Takes up the full viewport height */
+    background-image: url('/public/faturesBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Discover {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: auto;
+    width: 100%;
+    background-image: url('/public/DiscoverBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: auto;
+    width: 100%;
+    background-image: url('/public/benifitsBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.CourseStructure {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: auto;
+    width: 100%;
+    background-color: #1E1E1E;
+}
+
+.FAQStructure {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: auto;
+    width: 100%;
+    background-image: url('/public/FAQStructureBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.GetInTouch {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    background-image: url('/public/getInTouch.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.Footer {
+    width: 100%;
+    background-color: #1E1E1E;
+    margin-top: -25vh;
+}
+
+.Copyright {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+
+
+@media (max-width: 480px) {
+
+    html {
+        overflow-x: hidden !important;
+    }
+
+
+    .DesktopNavBar {
+        display: none;
+    }
+    .MobileNavBar {
+        display: block;
+        
+    }
+    .navMob {
+        width: 90%;
+        margin: auto;
+        padding-top: 4vh;
+        background-color: transparent !important;
+    }
+
+    .NavLinksMobile {
+        text-align: center;
+        font-size: 1em;
+        border-bottom: none;
+    }
+
+      .NavLinksMobile:hover {
+        text-align: center;
+        font-size: 1em;
+        border-bottom: none;
+        background-color: rgba(82, 235, 158, 0.1);
+    }
+
+    .NavBrand {
+        font-size: 1.1em;
+        border-bottom: none;
+    }
+
+    .NavBrand:hover {
+        color: #52EB9E;
+        background-color: transparent;
+    }
+
+
+}
+
+
+@media (max-width: 920px) {
+    .DesktopNavBar {
+        display: none;
+    }
+    .MobileNavBar {
+        display: block;
+        
+    }
+    .navMob {
+        width: 90%;
+        margin: auto;
+        padding-top: 4vh;
+        background-color: transparent !important;
+    }
+
+    .NavLinksMobile {
+        text-align: center;
+        font-size: 1em;
+        border-bottom: none;
+    }
+
+      .NavLinksMobile:hover {
+        text-align: center;
+        font-size: 1em;
+        border-bottom: none;
+        background-color: rgba(82, 235, 158, 0.1);
+    }
+
+    .NavBrand {
+        font-size: 1.1em;
+        border-bottom: none;
+    }
+
+    .NavBrand:hover {
+        color: #52EB9E;
+        background-color: transparent;
+    }
+
+}
+
+/*------------------Navbar - End------------------*/

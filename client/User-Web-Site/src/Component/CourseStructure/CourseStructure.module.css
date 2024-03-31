@@ -1,0 +1,76 @@
+.CourseStructureContainer {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.CourseStructureTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.CourseStructureTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #52EB9E;
+}
+
+.CourseStructureSubTitle {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.CourseStructureDescription {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.CourseStructureCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CourseStructureCardRow {
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+}
+
+.CourseStructureCard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 220px;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.CourseStructureSpecial {
+    background-color: rgba(82, 235, 158, 0.04);
+}
+
+.CourseStructureSpecial2{
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
